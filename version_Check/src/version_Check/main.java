@@ -1,10 +1,5 @@
 package version_Check;
 
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JProgressBar;
-
 public class main {
 	public static final String Main_Version = "1.0";
 	public static void main(String[] args) throws Exception {
