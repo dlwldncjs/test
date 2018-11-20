@@ -23,15 +23,12 @@ public class Ftp_Update {
 			long start = System.currentTimeMillis();
 			session = jsch.getSession(userName, host, port);
 			session.setPassword("1q2w3e4r!");
-
 			java.util.Properties config = new java.util.Properties();
 			config.put("StrictHostKeyChecking", "no");
 			session.setConfig(config);
 			session.connect();
-
 			channel = session.openChannel("sftp");
 			channel.connect();
-
 		} catch (JSchException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -65,7 +62,6 @@ public class Ftp_Update {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-
 		}
 	}
 	
