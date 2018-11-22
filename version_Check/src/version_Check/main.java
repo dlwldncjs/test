@@ -10,7 +10,5 @@ public class main {
 		sftp.download("/update/", "Version.xml", "C:\\Users\\JW\\Desktop\\Workspace\\down\\main\\New_Version.xml");
 		sftp.disconnection();
 		new Check_xml().Check_newxml();
-		
-		//revert test
 	}
 }
