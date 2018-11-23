@@ -1,7 +1,6 @@
 package version_Check;
 
 public class main {
-	//∏∂Ω∫≈Õ
 	public static final String Main_Version = "2.0";
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
