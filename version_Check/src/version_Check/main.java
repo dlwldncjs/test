@@ -8,6 +8,6 @@ public class main {
 		sftp.ftp_Update("asanbigdata.iptime.org", "admin", "1q2w3e4r!", 22);
 		sftp.download("/update/", "Version.xml", "C:\\Users\\JW\\Desktop\\Workspace\\down\\main\\New_Version.xml");
 		sftp.disconnection();
-		new Check_xml().Check_newxml();//
+		new Check_xml().Check_newxml();//2.0
 	}
 }
