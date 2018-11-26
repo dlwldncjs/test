@@ -1,7 +1,7 @@
 package version_Check;
 
 public class main {
-	//마스터
+	//마스터 main
 	public static final String Main_Version = "1.0";
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
